@@ -3,21 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature Converter</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Temperature Converter</h1>
-        <input type="text" id="temperatureInput" placeholder="Enter temperature">
-        <select id="unitSelect">
-            <option value="celsius">Celsius</option>
-            <option value="fahrenheit">Fahrenheit</option>
-            <option value="kelvin">Kelvin</option>
-        </select>
-        <button onclick="convertTemperature()">Convert</button>
-        <div id="result"></div>
-    </div>
-    <script src="script.js"></script>
+    <header>
+        <div class="intro">
+            <img src="photo.jpg" alt="Picture" class="profile-img">
+            <h1>Nypunya Itte</h1>
+            <p>Welcome to my personal portfolio! I'm a web developer with a passion for creating beautiful and functional websites.</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="resume.pdf" download>Download Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate web developer with a background in HTML, CSS, and JavaScript. I love creating websites that are not only functional but also visually appealing.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Version Control (Git)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p><a href="C:\Users\user\Desktop\webDev\temperature">Temperature converter</a></p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p><a href="C:\Users\user\Desktop\OASIS\ATMInterface">ATM Interface</a></p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, you can reach me at:</p>
+        <ul>
+            <li>Email: ittenypunya01@gmail.com</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/itte-nypunya?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bg7%2FpJrLkQj25lUTfn51xfg%3D%3D">Itte Nypunya</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 nypunya itte. All rights reserved.</p>
+    </footer>
 </body>
 </html>
